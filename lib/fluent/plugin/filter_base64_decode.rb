@@ -1,7 +1,7 @@
 # encoding: utf-8
 require 'base64'
 
-require 'fluent/plugin/filter'
+require 'fluent/filter'
 
 module Fluent
   class Base64DecodeFilter < Filter
